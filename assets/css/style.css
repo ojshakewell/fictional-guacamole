@@ -3,6 +3,11 @@ body {
 	background-image: url("../images/topography/topography.png");
 }
 
-nav {
+nav, h4,h5{
 	font-family: 'Vollkorn SC', serif;
+}
+
+img{
+    width:100px; /* you can use % */
+    height: auto;
 }
