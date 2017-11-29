@@ -11,3 +11,7 @@ img{
     width:100px; /* you can use % */
     height: auto;
 }
+
+.copyright{
+	vertical-align: center;
+}

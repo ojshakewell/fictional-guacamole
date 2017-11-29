@@ -1,60 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  
+  <!-- Materialize icons -->
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Custom stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css"></script>
 
-  <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
-
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
   <nav>
-    <div class="nav-wrapper red darken-3">
+    <div class="nav-wrapper red darken-2">
       <a href="#!" class="brand-logo">
         <span class = "white-text text-lighten-1">Brian Russell</span>
       </a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
+
   <div class="container">
     <div class="row">
       <br/>
       <h4>Backend Web Developer |
       GIS Developer | Keeping it simple.</h4> 
-
       <img src="assets/images/map-42871_640.png">
     </div>
     <div class = "row">
-      <div class="col s10">
-        <h5>About</h5>
+        <h5 id="about">About</h5>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris magna, semper quis tincidunt quis, luctus eu nulla. Ut magna erat, sollicitudin sit amet accumsan in, ornare nec metus. Aliquam dolor turpis, laoreet id auctor at, suscipit nec ligula. Nam sapien augue, auctor sed dapibus ac, consequat ut sem. Nullam tincidunt nunc commodo massa aliquet gravida. Morbi a dapibus ex, vitae bibendum diam. Pellentesque quis faucibus neque, id pretium dui. Nam congue, enim eu efficitur lacinia, tellus augue tincidunt ante, ut varius ante nisl in risus. Praesent in justo nibh. Ut malesuada a felis ut convallis. Nullam in diam facilisis, dictum eros ac, dapibus diam. Curabitur a massa quam. Ut velit velit, rutrum id erat vitae, sollicitudin ultricies lacus. Morbi volutpat leo bibendum tincidunt tincidunt. Etiam bibendum urna at ligula mollis blandit. Fusce non tortor facilisis ipsum posuere finibus non sit amet urna.
         </p>
-      </div>
-      <div class="col s2">
-        <img src="assets/images/brian-photo.jpg">
-      </div>
     </div>
+
     <div class="row">
-      <h5>Portfolio</h5>
+      <h5 id="portfolio">Portfolio</h5>
       <div class="carousel">
         <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
         <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
@@ -63,14 +60,20 @@
         <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
       </div>
     </div>
+
     <div class="row">
-      <h5>Contact</h5>
-      <i class="material-icons">email</i>
+      <h5 id="contact">Contact</h5>
+
+      <span><a class="btn waves-effect waves-light red" href="mailto:brianrobertrussell@gmail.com">Email<i class="material-icons left">email</i></a></span><br/><br/>
+      <!-- Place this tag where you want the button to render. -->
+      <span><a class="github-button" href="https://github.com/ojshakewell" data-size="large" aria-label="Follow @ojshakewell on GitHub">Follow @ojshakewell</a></span>
+      <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="brian-russell-colorado"><a class="LI-simple-link" href='https://www.linkedin.com/in/brian-russell-colorado?trk=profile-badge'>Brian Russell</a></div>
     </div>
   </div>
+</div>
 
-<footer class="page-footer red darken-3">
-  <div class="footer-copyright">
+<footer class="page-footer red darken-2">
+  <div class="footer-copyright red darken-2">
     <div class="container">
     © 2017 Brian Russell
     </div>
@@ -80,11 +83,15 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
 
-  <!-- Compiled and minified JavaScript -->  <!-- Compiled and minified JavaScript -->
-    </div>
+  <!-- Materialize Compiled and minified JavaScript -->  <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
-  <script 
-    type="text/javascript" src="assets/js/app.js"></script>
+  <!-- JavaScript -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+  <!-- LinkedIn Profile badge -->
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <!-- GitHub Profile badge -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
