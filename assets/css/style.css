@@ -3,7 +3,7 @@ body {
 	background-image: url("../images/topography/topography.png");
 }
 
-nav, h4,h5{
+nav, h3,h4,h2{
 	font-family: 'Vollkorn SC', serif;
 }
 
@@ -47,3 +47,4 @@ img{
 .black-text{
 	color: #000000
 }
+
